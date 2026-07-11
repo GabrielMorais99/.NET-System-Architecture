@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\TechChallenge.Application\TechChallenge.Application.csproj" />
+    <ProjectReference Include="..\TechChallenge.Domain\TechChallenge.Domain.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <RootNamespace>TechChallenge.Infrastructure</RootNamespace>
+  </PropertyGroup>
+</Project>
