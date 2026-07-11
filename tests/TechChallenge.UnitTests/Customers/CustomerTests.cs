@@ -6,7 +6,7 @@ namespace TechChallenge.UnitTests.Customers;
 public sealed class CustomerTests
 {
     [Fact]
-    public void Create_WithValidData_ShouldNormalizeEmail()
+    public void CreateWithValidDataShouldNormalizeEmail()
     {
         var customer = Customer.Create("Gabriel", "GABRIEL@EXAMPLE.COM");
 
@@ -16,7 +16,7 @@ public sealed class CustomerTests
     }
 
     [Fact]
-    public void Create_WithInvalidEmail_ShouldThrow()
+    public void CreateWithInvalidEmailShouldThrow()
     {
         var action = () => Customer.Create("Gabriel", "email-invalido");
 
