@@ -7,7 +7,7 @@ namespace TechChallenge.IntegrationTests;
 public sealed class HealthEndpointTests
 {
     [Fact]
-    public async Task GetHealth_ShouldReturnOk()
+    public async Task GetHealthShouldReturnOk()
     {
         await using var application = new WebApplicationFactory<Program>();
         using var client = application.CreateClient();
