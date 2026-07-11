@@ -1,0 +1,31 @@
+## .NET
+bin/
+obj/
+artifacts/
+TestResults/
+coverage/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## IDEs
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Environment and secrets
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets.json
+
+## Containers
+docker-data/
