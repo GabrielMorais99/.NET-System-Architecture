@@ -1,3 +1,4 @@
+using TechChallenge.Api.Contracts;
 using TechChallenge.Application.Abstractions;
 using TechChallenge.Application.Customers.CreateCustomer;
 using TechChallenge.Infrastructure.Persistence;
@@ -55,8 +56,6 @@ app.MapGet(
 .WithName("GetCustomerById");
 
 app.Run();
-
-public sealed record CreateCustomerRequest(string Name, string Email);
 
 public partial class Program
 {
